@@ -1,0 +1,352 @@
+
+
+  @media (max-width: 1199px){
+     .container{
+      margin: 0 auto;
+      max-width: 100%;
+     }
+     .promo h1{
+      font-size: 85px;
+      font-weight:700;
+     }
+    .about,.pero_travel,.pero_lorem{
+      max-width: 100%;
+      margin-left: 60px;
+    }
+    .pero_travel,.pero_lorem{
+      width: 400px;
+    }
+    .angry-grid{
+      margin-left: 10%;
+    }
+   
+  }
+  @media (max-width: 991px){
+    .promo{
+      padding-left: 24px;
+    }
+    .container{
+      margin: 0 auto;
+      width: 991px;
+      max-width: 100%;
+      
+    }
+    .menu{
+      margin-right: 30px;
+    }
+    .item_famous3{
+      display: none;
+    }
+
+    .container_famous{
+      margin-left: 10%;
+    }
+    .blue_text{
+      margin-left: 50px;
+    }
+    .link_famous{
+      margin-right: 100px;
+    }
+    .content_nature{
+      margin-left: 22%;
+    }
+    .types_excursion, .types_excursioon{ 
+     
+      
+      flex-direction: column;
+    } 
+    .types_excursioon img{
+      margin-left: 60px;
+    }
+    .types_excursion img{
+      margin-left: 60px;
+  
+    
+
+    }
+    .jeep_tour{
+      
+      margin-left: 60px;
+    }
+    .item_excursion{
+      margin-left: 40px;
+    }
+    .blue_types{
+      margin-left:60px;
+    }
+    .pre_button{
+       margin-left: 60px;
+      width: 600px;
+    }
+    .o_button{
+      margin-left: 60px;
+    }
+    .angry-grid{
+      margin-left: 8%;
+    }
+  }
+  @media (max-width: 767px) {
+    .container{
+      margin-left: 24px;
+  }
+  .menu{
+    margin-right: 60px;
+  }
+  .promo h1{
+    max-width: 450px;
+    margin-left: 30px;
+    font-size: 58px;
+
+  }
+  .promo_button{
+    margin-left: 30px;
+  }
+  .item_famous3{
+    display: none;
+  }
+  .link_famous{
+    margin-right: 50px;
+  }
+  .types_excursion{
+    margin-right: 100px;
+  }
+  .container_famous{
+    margin-left: 0%;
+    margin-right: 20px;
+    gap: 5px;
+  }
+  .content_nature{
+    margin-left: 10%;
+  }
+  .types_promo img{
+    margin-left: 20px;
+  }
+  .types_excursion{
+    flex-direction: column;
+  }
+  .types_excursioon{
+    flex-direction: column ;
+  }
+  .blue_types{
+    margin-left: 22%;
+  }
+  .pre_button{
+    max-width: 400px;
+    margin-left: 180px;
+  }
+  .types_excursion img{
+    margin-left: 22%;
+  }
+  .types_excursioon img{
+    margin-left: 22%;
+  }
+  .item_excursion{
+    margin-left: 20%;
+  }
+  .o_button{
+    margin-left: 35%;
+  }
+  .types_promo{
+    max-width: 100%;
+  }
+  .angry-grid{
+    max-width: 100%;  
+    margin-left:10%;
+    width: 700px;
+    grid-template-columns: repeat(7,1fr);
+  }
+  #item-6,#item-7{
+    display: none;
+  }
+  #item-5{
+    grid-column: 5/7;
+    grid-row: 1/5;
+  }
+  
+  } 
+   @media (max-width: 576px) {
+  .container {
+   
+    max-width: 100%;
+    margin-left: 24px;
+  }
+  .promo{
+    background-image: url(./image/Rectangle\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .menu a{
+    display: none;
+  }
+
+  .menu {
+    background-image: url(./image/меню.png);
+    width: 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    justify-content:end;
+    margin-right: 40px;
+
+  }
+
+  .promo h1 {
+    max-width: 300px;
+    margin-left: 30px;
+    font-size: 36px;
+
+  }
+
+  .promo img {
+    margin-left: 25px;
+  }
+
+  .promo_button {
+    margin-left: 25px;
+  }
+
+  .link_famous {
+    display: none;
+  }
+
+  .item_famous2, .item_famous3 {
+    display: none;
+  }
+
+  .item_famous {
+    margin-left: 20px;
+    width: 500px;
+  }
+
+  .blue_text {
+    margin-left: 20px;
+  }
+
+  .content_nature {
+    margin-top: 70px;
+    margin-left: 60px;
+    width: 380px;
+    height: 386px;
+  }
+
+  .pero_travel {
+    margin-top: 0;
+    margin-left: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    width: 294px;
+
+
+  }
+
+  .pero_lorem {
+    margin-top: 0;
+    margin-left: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    width: 294px;
+
+
+  }
+
+  .about {
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .types_excursion {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .types_excursioon {
+    flex-direction: column;
+    display: flex;
+  }
+
+  
+  .item_excursion{
+    margin-left: 20px;
+  }
+  .item_excursioon{
+    margin-left: 40px;
+  }
+  .types_excursioon img {
+    margin-left: 40px;
+  }
+
+  .types_excursion img {
+    margin-left: 20px;
+  }
+
+  .o_button {
+
+    margin-left: 150px;
+  }
+
+  .pre_button {
+    width: 550px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  #item-6, #item-7, #item-4, #item-5 {
+    display: none;
+  }
+
+  .angry-grid {
+    margin-left: 40px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows: minmax(300px);
+    gap: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+
+  #item-0 {
+    background-image: url(./image/girl_mountain.png);
+    background-position: center;
+    background-size: cover; 
+    height: 400px;
+    grid-row: 1/3;
+    grid-column: 1/2;
+  
+  }
+
+  #item-1 {
+ 
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-image: url(./image/track.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  #item-2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: url(./image/ocean.png);
+    background-repeat: no-repeat;
+    background-position: center;
+      background-size: cover; 
+
+  }
+
+  #item-3 {
+    background-image: url(./image/view_mountain.png);
+    grid-row: 3/5;
+    grid-column: 1/3;
+ 
+
+  }
+  .content_nature{
+    height: 430px;
+  }
+} 
+
